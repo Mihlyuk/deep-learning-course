@@ -19,7 +19,6 @@ source env/bin/activate
 pip install -r requirements.txt
 
 # Load working data
-wget -P ./data/assignment1 "http://yaroslavvb.com/upload/notMNIST/notMNIST_large.tar.gz"
-wget -P ./data/assignment1 "http://yaroslavvb.com/upload/notMNIST/notMNIST_small.tar.gz"
-
+wget -P ./data/assignment1 "http://commondatastorage.googleapis.com/books1000/notMNIST/notMNIST_large.tar.gz"
+wget -P ./data/assignment1 "http://commondatastorage.googleapis.com/books1000/notMNIST/notMNIST_small.tar.gz"
 ```
