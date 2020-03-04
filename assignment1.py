@@ -302,7 +302,7 @@ plot_balance()
 
 # Finally, let's save the data for later reuse:
 
-pickle_file = 'notMNIST.pickle'
+pickle_file = 'data/notMNIST.pickle'
 
 try:
     f = open(pickle_file, 'wb')
@@ -380,7 +380,7 @@ print('Overlapping images removed from valid_dataset: ', len(valid_dataset) - le
 print('Training:', train_dataset.shape, train_labels.shape)
 print('Validation:', valid_labels_sanit.shape, valid_labels_sanit.shape)
 print('Testing:', test_dataset_sanit.shape, test_labels_sanit.shape)
-pickle_file_sanit = 'notMNIST_sanit.pickle'
+pickle_file_sanit = 'data/notMNIST_sanit.pickle'
 
 try:
     f = open(pickle_file_sanit, 'wb')

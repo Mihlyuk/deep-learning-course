@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # Определите количество скрытых слоев от 1 до 5, количество нейронов в каждом из слоев до нескольких сотен,
 # а также их функции активации (кусочно-линейная, сигмоидная, гиперболический тангенс и т.д.).
 
-pickle_file = 'notMNIST.pickle'
+pickle_file = 'data/notMNIST.pickle'
 
 with open(pickle_file, 'rb') as f:
     save = pickle.load(f)
